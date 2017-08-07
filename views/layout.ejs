@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title><%= title %></title>
+    <!-- twitter bootstrap CSS stylesheet - included to make things pretty, not needed or used by cornerstone -->
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="/stylesheets/cornerstone.min.css" rel="stylesheet">
+	<%- defineContent('header_script') %>
+</head>
+<body>
+<div class="container">
+	<%- body %>
+</div>
+<script src="/javascripts/jquery.min.js"></script>
+<script src="/javascripts/cornerstone.min.js"></script>
+<script src="/javascripts/cornerstoneMath.min.js"></script>
+<script src="/javascripts/cornerstoneTools.min.js"></script>
+<script src="/javascripts/cornerstoneWebImageLoader.js"></script>
+<%- defineContent('footer_script') %>
+</body>
+</html>
+
